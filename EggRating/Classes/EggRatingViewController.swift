@@ -73,7 +73,7 @@ class EggRatingViewController: UIViewController {
         starRateView.starBorderColor = EggRating.starBorderColor
         starRateView.starNormalColor = EggRating.starNormalColor
         starRateView.step = 0.5
-        starRateView.starSize = starContainerViewFrame.width/5.5
+        starRateView.starSize = starContainerViewFrame.width/8.0
         starRateView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
         let frame = CGRect(x: (starContainerViewFrame.width - starRateView.frame.width)/2, y: starContainerViewFrame.height/2 - starRateView.frame.height/2, width: starContainerViewFrame.width, height: starContainerViewFrame.height)
